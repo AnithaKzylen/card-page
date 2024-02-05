@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+.header {
+  text-align: center;
+  /* padding-top: 40px; */
+}
+
+.App{
+  padding: 32px;
+  background-color: whitesmoke;
+}
+
+.light {
+  font-weight: 50;
+}
+.bold {
+  font-weight: 500;
+}
+.header p {
+  padding: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  font-size: 15px;
+  font-weight: 100;
+  color: darkgray;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  height: 150px;
+  width: 250px;
+  padding: 24px 16px;
+  font-size: 15px;
+  font-weight: 100;
+  position: relative;
+}
+.box p{
+  padding-top: 5px;
+  color: darkgrey;
+}
+.right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  border-top: 3px solid aqua;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.center-top{
+  border-top: 3px solid red;
+}
+.center-bottom{
+  border-top: 3px solid orange;
+}
+.right{
+  border-top: 3px solid blue;
+}
+
+span {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 50px;
+}
+
+@media screen and (max-width : 870px) {
+  .header p{
+    width: 100%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+  .center{
+    align-items: center;
+  }
+  
+}
